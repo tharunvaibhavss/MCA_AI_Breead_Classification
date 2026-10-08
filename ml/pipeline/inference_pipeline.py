@@ -223,7 +223,7 @@ class BreedRecognitionPipeline:
 
         # 5. Grad-CAM Explainability Generation
         gradcam_dict = None
-        if generate_gradcam and status in ["success", "multiple_animals_detected", "low_classification_confidence"]:
+        if generate_gradcam and status in ["success", "multiple_animals_detected", "low_classification_confidence", "no_animal_detected"]:
             t_grad_start = time.perf_counter()
             try:
                 target_cls_id = top_3_list[0]["class_id"] if top_3_list else 0

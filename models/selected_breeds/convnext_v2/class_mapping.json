@@ -1,0 +1,58 @@
+[
+  {
+    "class_id": 0,
+    "breed_id": "cow_dangi",
+    "breed_name": "Dangi",
+    "species": "cattle",
+    "display_name": "Dangi Cattle"
+  },
+  {
+    "class_id": 1,
+    "breed_id": "cow_gaolao",
+    "breed_name": "Gaolao",
+    "species": "cattle",
+    "display_name": "Gaolao Cattle"
+  },
+  {
+    "class_id": 2,
+    "breed_id": "cow_gir",
+    "breed_name": "Gir",
+    "species": "cattle",
+    "display_name": "Gir Cattle"
+  },
+  {
+    "class_id": 3,
+    "breed_id": "cow_ongole",
+    "breed_name": "Ongole",
+    "species": "cattle",
+    "display_name": "Ongole Cattle"
+  },
+  {
+    "class_id": 4,
+    "breed_id": "cow_sahiwal",
+    "breed_name": "Sahiwal",
+    "species": "cattle",
+    "display_name": "Sahiwal Cattle"
+  },
+  {
+    "class_id": 5,
+    "breed_id": "buffalo_manda",
+    "breed_name": "Manda",
+    "species": "buffalo",
+    "display_name": "Manda Buffalo"
+  },
+  {
+    "class_id": 6,
+    "breed_id": "buffalo_surti",
+    "breed_name": "Surti",
+    "species": "buffalo",
+    "display_name": "Surti Buffalo"
+  },
+  {
+    "class_id": 7,
+    "breed_id": "buffalo_toda",
+    "breed_name": "Toda",
+    "species": "buffalo",
+    "display_name": "Toda Buffalo"
+  }
+]

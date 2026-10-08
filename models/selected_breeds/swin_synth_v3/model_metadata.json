@@ -1,0 +1,16 @@
+{
+  "model_version": "selected_breeds_swin_synth_v3",
+  "architecture": "Swin-T",
+  "checkpoint_file": "best_swin_synth_model.pth",
+  "parameter_count": 27525506,
+  "validation_top1": 0.8235294117647058,
+  "validation_top3": 0.9411764705882353,
+  "validation_macro_f1": 0.8066905316905317,
+  "locked_test_top1": 0.7575757575757576,
+  "locked_test_top3": 1.0,
+  "locked_test_macro_f1": 0.7326388888888888,
+  "locked_test_correct": 25,
+  "locked_test_total": 33,
+  "target_achieved_95": false,
+  "eval_timestamp": "2026-10-09 00:03:41.109106"
+}

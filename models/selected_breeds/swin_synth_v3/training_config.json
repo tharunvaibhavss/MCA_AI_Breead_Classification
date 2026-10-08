@@ -1,0 +1,20 @@
+{
+  "model_version": "selected_breeds_swin_synth_v3",
+  "backbone": "swin_t",
+  "parameters": 27525506,
+  "pretrained_weights": "ImageNet-1K (torchvision Swin_T_Weights.DEFAULT)",
+  "input_resolution": "224x224",
+  "real_training_images": 153,
+  "synthetic_training_images": 4160,
+  "total_training_images": 4313,
+  "validation_images": 34,
+  "locked_test_images": 33,
+  "champion_domain_boost": 5.0,
+  "champion_label_smoothing": 0.1,
+  "is_hierarchical": false,
+  "optimizer": "AdamW",
+  "head_learning_rate": 0.001,
+  "backbone_learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "timestamp": "2026-10-09 00:02:19.029390"
+}

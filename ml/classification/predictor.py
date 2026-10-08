@@ -86,8 +86,12 @@ class BreedPredictor:
         # Initialize preprocessor
         self.preprocessor = OpenCVPreprocessor(target_size=(224, 224))
 
-        # Instantiate model architecture
-        self.model = BreedClassifier(num_classes=self.num_classes, pretrained=False)
+        # Determine architecture (b0, b4, or swin_t)
+        arch = "b0"
+        if model_path and "swin" in str(model_path).lower():
+            arch = "swin_t"
+        elif model_path and ("v4" in str(model_path).lower() or "b4" in str(model_path).lower()):
+            arch = "b4"
 
         # Load weights if checkpoint exists
         if model_path is None:
@@ -100,12 +104,25 @@ class BreedPredictor:
                 if default_weights.exists():
                     model_path = default_weights
 
+        loaded_state_dict = None
         if model_path and Path(model_path).exists():
             checkpoint = torch.load(model_path, map_location=self.device, weights_only=True)
-            state_dict = checkpoint["model_state_dict"] if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint else checkpoint
-            if any(k.startswith("features.") or k.startswith("classifier.") for k in state_dict.keys()):
-                state_dict = {f"backbone.{k}": v for k, v in state_dict.items()}
-            self.model.load_state_dict(state_dict)
+            loaded_state_dict = checkpoint["model_state_dict"] if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint else checkpoint
+            if any(k.startswith("head.") or "mlp" in k for k in loaded_state_dict.keys()):
+                arch = "swin_t"
+            if any(k.startswith("features.") or k.startswith("classifier.") or k.startswith("head.") or k.startswith("norm.") for k in loaded_state_dict.keys()):
+                loaded_state_dict = {f"backbone.{k}": v for k, v in loaded_state_dict.items()}
+            # Check feature projection dim (1792 in B4, 1280 in B0)
+            for k, v in loaded_state_dict.items():
+                if "classifier.1.weight" in k:
+                    if v.shape[1] == 1792:
+                        arch = "b4"
+                    break
+
+        # Instantiate model architecture
+        self.model = BreedClassifier(num_classes=self.num_classes, pretrained=False, arch=arch)
+        if loaded_state_dict is not None:
+            self.model.load_state_dict(loaded_state_dict)
 
         self.model = self.model.to(self.device)
         self.model.eval()
@@ -123,6 +140,19 @@ class BreedPredictor:
                 raw_json = json.load(f)
 
         if raw_json is not None:
+            # Check if list of class dicts
+            if isinstance(raw_json, list):
+                mapping = {}
+                for item in raw_json:
+                    cls_idx = int(item.get("class_id", len(mapping)))
+                    sp = item.get("animal_type", item.get("species", "cattle"))
+                    mapping[cls_idx] = {
+                        "breed_name": item.get("breed_name", f"Breed_{cls_idx}"),
+                        "animal_type": sp,
+                        "display_name": item.get("display_name", f"{item.get('breed_name', '')} {sp.capitalize()}"),
+                    }
+                return mapping
+
             # Check if rich format like models/class_names.json
             if "idx_to_breed_name" in raw_json and "idx_to_species" in raw_json:
                 mapping = {}

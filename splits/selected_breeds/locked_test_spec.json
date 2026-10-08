@@ -1,0 +1,255 @@
+{
+  "status": "LOCKED_AND_FROZEN",
+  "lock_timestamp": "2026-10-02T13:07:12.535668",
+  "total_test_samples": 33,
+  "source_type_purity": "100% REAL PHOTOGRAPHS ONLY",
+  "synthetic_contamination": 0,
+  "classes_count": 8,
+  "species_distribution": {
+    "cattle": 22,
+    "buffalo": 11
+  },
+  "per_class_sample_counts": {
+    "Manda": 5,
+    "Dangi": 5,
+    "Gir": 5,
+    "Gaolao": 5,
+    "Ongole": 4,
+    "Surti": 3,
+    "Toda": 3,
+    "Sahiwal": 3
+  },
+  "sha256_hash_registry": {
+    "BUF_BUFFALO_MANDA_0012": {
+      "breed": "Manda",
+      "species": "buffalo",
+      "sha256": "e187d651f7694441733be6b58727bb988d9132ccab723467e3314eeb3694e9c3",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_manda/manda_0012.jpg",
+      "dimensions": "5472x3648"
+    },
+    "BUF_BUFFALO_MANDA_0016": {
+      "breed": "Manda",
+      "species": "buffalo",
+      "sha256": "5a1b3aee229565e2aea6d760faf1904c1063b8ccd2bc874ae1aa38d5693f24cb",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_manda/manda_0016.jpg",
+      "dimensions": "3883x2589"
+    },
+    "BUF_BUFFALO_MANDA_0030": {
+      "breed": "Manda",
+      "species": "buffalo",
+      "sha256": "f0c18a5e0e6ff239a935df50031921a811c3006c2e367425c6f9f3d2c7629bf5",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_manda/manda_0030.jpg",
+      "dimensions": "2764x1868"
+    },
+    "BUF_BUFFALO_MANDA_0021": {
+      "breed": "Manda",
+      "species": "buffalo",
+      "sha256": "adb50b48d57ef51c89e7f598b06a1e266dbaeb49e687de56c04e91b2da610983",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_manda/manda_0021.jpg",
+      "dimensions": "3072x2304"
+    },
+    "BUF_BUFFALO_MANDA_0008": {
+      "breed": "Manda",
+      "species": "buffalo",
+      "sha256": "c1fdbe4ec3b4045808a98835a906163f6d009fcf1f8f357424e1102e8619f4da",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_manda/manda_0008.jpg",
+      "dimensions": "4032x3024"
+    },
+    "BUF_BUFFALO_SURTI_0015": {
+      "breed": "Surti",
+      "species": "buffalo",
+      "sha256": "84843b8dd1f2835e91cd2254a7ff17750c76c502d774f79c124c70d56d1a5821",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_surti/surti_0015.jpg",
+      "dimensions": "706x718"
+    },
+    "BUF_BUFFALO_SURTI_0020": {
+      "breed": "Surti",
+      "species": "buffalo",
+      "sha256": "43ac0f0a9110d660f78d1ba4f2d0247fcd09813ad9510592f1799bb5947e6b21",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_surti/surti_0020.jpg",
+      "dimensions": "1080x2400"
+    },
+    "BUF_BUFFALO_SURTI_0007": {
+      "breed": "Surti",
+      "species": "buffalo",
+      "sha256": "5573ea3f9131e9051b0aefa946e23c00514297c885a2392cb32577d812c067c8",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_surti/surti_0007.jpg",
+      "dimensions": "3638x3332"
+    },
+    "BUF_BUFFALO_TODA_0014": {
+      "breed": "Toda",
+      "species": "buffalo",
+      "sha256": "b9e66c773ba390192484f554e7b1ff5799bda556cb9e0b5863b75ee2c1ddf581",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_toda/toda_0014.jpg",
+      "dimensions": "3272x4000"
+    },
+    "BUF_BUFFALO_TODA_0004": {
+      "breed": "Toda",
+      "species": "buffalo",
+      "sha256": "01a83b9bc96163c4a1969a958b1891f530b92721d3324d64812f30a45f7c1fc2",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_toda/toda_0004.jpg",
+      "dimensions": "800x534"
+    },
+    "BUF_BUFFALO_TODA_0007": {
+      "breed": "Toda",
+      "species": "buffalo",
+      "sha256": "6be1b80be8b240f214d17678d10a08b230a9f8864233800c36ceb7e0d021b91c",
+      "file_path": "dataset/selected_breeds/real/buffalo/buffalo_toda/toda_0007.jpg",
+      "dimensions": "2653x1990"
+    },
+    "CAT_COW_DANGI_0024": {
+      "breed": "Dangi",
+      "species": "cattle",
+      "sha256": "c3e46887d6ff55153055cd981a5522c4b6df95400e609ff68fb44524f5c70e1d",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_dangi/cow_dangi_0024.jpg",
+      "dimensions": "1236x1754"
+    },
+    "CAT_COW_DANGI_0026": {
+      "breed": "Dangi",
+      "species": "cattle",
+      "sha256": "f4c80f22e034608f7f52f5599faee5ceaab63f08d98d5e8d6b5d930a452c0aca",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_dangi/cow_dangi_0026.jpg",
+      "dimensions": "294x413"
+    },
+    "CAT_COW_DANGI_0020": {
+      "breed": "Dangi",
+      "species": "cattle",
+      "sha256": "9585726935685472ec895f5e1f006094fb7b0782699a61ab5fd7ae01c3db0cfb",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_dangi/cow_dangi_0020.jpg",
+      "dimensions": "2816x2112"
+    },
+    "CAT_COW_DANGI_0034": {
+      "breed": "Dangi",
+      "species": "cattle",
+      "sha256": "56b51f4a3473234a7548300e134b0e761d0dd2472bae4217148fb903f26d3afc",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_dangi/cow_dangi_0034.jpg",
+      "dimensions": "476x530"
+    },
+    "CAT_COW_DANGI_0001": {
+      "breed": "Dangi",
+      "species": "cattle",
+      "sha256": "3e05377892731544cec82e8bd96d33c8b3876cb76aaa1ec9c792116debbee596",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_dangi/dangi_0001.jpg",
+      "dimensions": "2400x2742"
+    },
+    "CAT_COW_GAOLAO_0002": {
+      "breed": "Gaolao",
+      "species": "cattle",
+      "sha256": "0fc0455358b6cd59c5e8beb8cbd29d7d26e63b5d77f9e23c3edcbe497d214915",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gaolao/gaolao_0002.jpg",
+      "dimensions": "5184x3456"
+    },
+    "CAT_COW_GAOLAO_0010": {
+      "breed": "Gaolao",
+      "species": "cattle",
+      "sha256": "c12b663de2b2abeed6ccca6013420df0fbe616b13ee44f38449d2aa4b24cabf5",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gaolao/cow_gaolao_0010.jpg",
+      "dimensions": "720x540"
+    },
+    "CAT_COW_GAOLAO_0013": {
+      "breed": "Gaolao",
+      "species": "cattle",
+      "sha256": "1be263ef64889c126664f32228a380682d178c9c99a5aabe4312fff03886261f",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gaolao/cow_gaolao_0013.jpg",
+      "dimensions": "886x591"
+    },
+    "CAT_COW_GAOLAO_0017": {
+      "breed": "Gaolao",
+      "species": "cattle",
+      "sha256": "73b885622e319bdb89823018e45522be518880cd2fd76f31f30b4b7d46436a29",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gaolao/cow_gaolao_0017.jpg",
+      "dimensions": "2967x4448"
+    },
+    "CAT_COW_GAOLAO_0031": {
+      "breed": "Gaolao",
+      "species": "cattle",
+      "sha256": "e263d58fa90df34600f062ced496a630d92de4850d954599e9791520d7f9d3c9",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gaolao/cow_gaolao_0031.jpg",
+      "dimensions": "529x705"
+    },
+    "CAT_COW_GIR_0011": {
+      "breed": "Gir",
+      "species": "cattle",
+      "sha256": "690b3a2283679f9a6e62cd036e3d131032d8e47611a2178fb849279fd3b9d1b8",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gir/gir_0011.jpg",
+      "dimensions": "5184x3456"
+    },
+    "CAT_COW_GIR_0015": {
+      "breed": "Gir",
+      "species": "cattle",
+      "sha256": "890c2b80eaeee4b818f21c3053004b64f57209074b80f1cd5335e1d72f94350e",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gir/gir_0015.jpg",
+      "dimensions": "5184x3456"
+    },
+    "CAT_COW_GIR_0029": {
+      "breed": "Gir",
+      "species": "cattle",
+      "sha256": "ecf277862287aeecc370daec6c94796daa6926094d3a495dd963e51219059521",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gir/gir_0029.jpg",
+      "dimensions": "4032x3024"
+    },
+    "CAT_COW_GIR_0020": {
+      "breed": "Gir",
+      "species": "cattle",
+      "sha256": "9c5aeb9a9b63ac908fc2d6b987cd942773a5f58a20d122565324341c7b437a5a",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gir/gir_0020.jpg",
+      "dimensions": "718x537"
+    },
+    "CAT_COW_GIR_0007": {
+      "breed": "Gir",
+      "species": "cattle",
+      "sha256": "a7f0adbe1d984be5317cb872e7ee95fcfd1fe75517fc1500356f5e5e3d2ce912",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_gir/gir_0007.jpg",
+      "dimensions": "5184x3456"
+    },
+    "CAT_COW_ONGOLE_0011": {
+      "breed": "Ongole",
+      "species": "cattle",
+      "sha256": "639597bb488d9812de67c2907edccfb2e5cfe1549dc1904acafd1b6abb94eaaf",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_ongole/ongole_0011.jpg",
+      "dimensions": "5712x3213"
+    },
+    "CAT_COW_ONGOLE_0015": {
+      "breed": "Ongole",
+      "species": "cattle",
+      "sha256": "ee95a5012c2335821bc635680e3f8374028f71ea7511f5d21be60e4d051f7a9c",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_ongole/ongole_0015.jpg",
+      "dimensions": "1620x1080"
+    },
+    "CAT_COW_ONGOLE_0020": {
+      "breed": "Ongole",
+      "species": "cattle",
+      "sha256": "281bd5d28f8788dd52aa03f11ff3ba48f2874dfc654216dd9dce69a21ebb5258",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_ongole/ongole_0020.jpg",
+      "dimensions": "793x567"
+    },
+    "CAT_COW_ONGOLE_0007": {
+      "breed": "Ongole",
+      "species": "cattle",
+      "sha256": "a950009565d776c48d339043a351b84191012b1acd6056f9fe27619312fea174",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_ongole/ongole_0007.jpg",
+      "dimensions": "1620x1080"
+    },
+    "CAT_COW_SAHIWAL_0015": {
+      "breed": "Sahiwal",
+      "species": "cattle",
+      "sha256": "0d62c25e4816b2940902b5b0df72c851bceb7a5f9333fe99387b34cef6ce173e",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_sahiwal/sahiwal_0015.jpg",
+      "dimensions": "616x591"
+    },
+    "CAT_COW_SAHIWAL_0020": {
+      "breed": "Sahiwal",
+      "species": "cattle",
+      "sha256": "f5890d15c29025d0a894d85b5d62fda191f516732c2609bcd6c1509b9676cc72",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_sahiwal/sahiwal_0020.jpg",
+      "dimensions": "305x254"
+    },
+    "CAT_COW_SAHIWAL_0007": {
+      "breed": "Sahiwal",
+      "species": "cattle",
+      "sha256": "0e6ceafa8cdd94702bb7e7599278b423f5f5d1ad847b1cef719765f28774090b",
+      "file_path": "dataset/selected_breeds/real/cattle/cow_sahiwal/sahiwal_0007.jpg",
+      "dimensions": "665x498"
+    }
+  }
+}

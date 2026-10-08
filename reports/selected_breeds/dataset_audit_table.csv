@@ -1,0 +1,83 @@
+breed_name,breed_id,species,real_image_count,source,image_dimensions,duplicate_count,near_duplicate_count,usable_image_count
+Manda,buffalo_manda,buffalo,31,ICAR-NBAGR / Baseline Archive,"Med: 4032x3024 (Min: 650x550, Max: 6456x4304)",0,0,31
+Surti,buffalo_surti,buffalo,21,ICAR-NBAGR / Baseline Archive,"Med: 1080x1280 (Min: 213x160, Max: 4608x4320)",0,0,20
+Toda,buffalo_toda,buffalo,17,ICAR-NBAGR / Baseline Archive,"Med: 800x800 (Min: 181x200, Max: 5150x4000)",0,0,16
+Nagpuri,buffalo_nagpuri,buffalo,11,ICAR-NBAGR / Baseline Archive,"Med: 1902x1952 (Min: 1136x720, Max: 4160x3000)",0,0,11
+Murrah,buffalo_murrah,buffalo,10,ICAR-NBAGR / Baseline Archive,"Med: 3552x2536 (Min: 654x530, Max: 5712x4284)",0,0,10
+Mehsana,buffalo_mehsana,buffalo,9,ICAR-NBAGR / Baseline Archive,"Med: 3456x2304 (Min: 650x550, Max: 4096x3000)",0,0,9
+Bargur,buffalo_bargur,buffalo,6,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 160x240, Max: 1600x1200)",0,4,5
+Banni,buffalo_banni,buffalo,3,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 5600x3728)",0,0,3
+Gomanchali,buffalo_gomanchali,buffalo,3,ICAR-NBAGR / Baseline Archive,"Med: 881x661 (Min: 881x661, Max: 881x661)",0,0,3
+Nili Ravi,buffalo_nili_ravi,buffalo,3,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x539, Max: 737x550)",0,0,3
+Bhadawari,buffalo_bhadawari,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Chhattisgarhi,buffalo_chhattisgarhi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Chilika,buffalo_chilika,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Dharwadi,buffalo_dharwadi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Gojri,buffalo_gojri,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Jaffarabadi,buffalo_jaffarabadi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 2947x1751 (Min: 1799x1198, Max: 4096x2304)",0,0,2
+Kalahandi,buffalo_kalahandi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Luit (Swamp),buffalo_luit_swamp,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Manah,buffalo_manah,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Marathwadi,buffalo_marathwadi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 411x227 (Min: 360x175, Max: 462x279)",0,0,1
+Melghati,buffalo_melghati,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 920x712 (Min: 815x635, Max: 1026x789)",0,0,2
+Pandharpuri,buffalo_pandharpuri,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Purnathadi,buffalo_purnathadi,buffalo,2,ICAR-NBAGR / Baseline Archive,"Med: 650x550 (Min: 650x550, Max: 650x550)",0,0,2
+Dangi,cow_dangi,cattle,43,"Wikimedia Commons, ICAR-NBAGR / Baseline Archive","Med: 558x452 (Min: 162x169, Max: 6016x3456)",0,0,39
+Gaolao,cow_gaolao,cattle,33,"ICAR-NBAGR / Baseline Archive, Wikimedia Commons","Med: 2000x2048 (Min: 299x423, Max: 5250x4512)",0,0,33
+Gir,cow_gir,cattle,31,ICAR-NBAGR / Baseline Archive,"Med: 4032x3044 (Min: 236x157, Max: 6123x4284)",0,0,30
+Ongole,cow_ongole,cattle,29,ICAR-NBAGR / Baseline Archive,"Med: 1620x1200 (Min: 231x287, Max: 5712x4284)",0,0,29
+Bachaur,cow_bachaur,cattle,23,"Wikimedia Commons, ICAR-NBAGR / Baseline Archive","Med: 1128x776 (Min: 360x209, Max: 4608x4160)",0,0,23
+Sahiwal,cow_sahiwal,cattle,22,ICAR-NBAGR / Baseline Archive,"Med: 1850x1070 (Min: 305x254, Max: 5184x4000)",0,0,22
+Siri,cow_siri,cattle,21,ICAR-NBAGR / Baseline Archive,"Med: 3072x2048 (Min: 640x428, Max: 6048x4624)",0,0,21
+Vechur,cow_vechur,cattle,19,ICAR-NBAGR / Baseline Archive,"Med: 4608x3456 (Min: 2048x1536, Max: 5184x3863)",0,0,19
+Badri,cow_badri,cattle,17,ICAR-NBAGR / Baseline Archive,"Med: 742x840 (Min: 142x263, Max: 3712x3648)",0,0,15
+Kangayam,cow_kangayam,cattle,17,ICAR-NBAGR / Baseline Archive,"Med: 2250x2368 (Min: 480x744, Max: 5184x6000)",0,0,17
+Nagori,cow_nagori,cattle,17,ICAR-NBAGR / Baseline Archive,"Med: 4032x3024 (Min: 488x300, Max: 5184x3648)",0,0,17
+Punganur,cow_punganur,cattle,16,ICAR-NBAGR / Baseline Archive,"Med: 2379x2582 (Min: 779x492, Max: 4608x4032)",0,0,16
+Kankrej,cow_kankrej,cattle,15,ICAR-NBAGR / Baseline Archive,"Med: 3264x1836 (Min: 1080x790, Max: 5184x3456)",0,0,15
+Nimari,cow_nimari,cattle,12,ICAR-NBAGR / Baseline Archive,"Med: 1900x2930 (Min: 1150x1724, Max: 8192x5464)",0,0,12
+Tharparkar,cow_tharparkar,cattle,11,ICAR-NBAGR / Baseline Archive,"Med: 2967x2961 (Min: 1120x800, Max: 5184x4160)",0,0,11
+Gangatiri,cow_gangatiri,cattle,8,ICAR-NBAGR / Baseline Archive,"Med: 3647x2045 (Min: 2200x1233, Max: 5184x3456)",0,0,8
+Bargur,cow_bargur,cattle,7,"ICAR-NBAGR / Baseline Archive, Wikimedia Commons","Med: 1600x1200 (Min: 160x240, Max: 5184x3456)",0,4,6
+Amritmahal,cow_amritmahal,cattle,6,ICAR-NBAGR / Baseline Archive,"Med: 3803x2841 (Min: 1546x1036, Max: 5184x3456)",0,0,6
+Hallikar,cow_hallikar,cattle,6,ICAR-NBAGR / Baseline Archive,"Med: 2245x2282 (Min: 513x598, Max: 5184x3456)",0,0,6
+Periyar,cow_periyar,cattle,6,ICAR-NBAGR / Baseline Archive,"Med: 750x788 (Min: 720x405, Max: 4320x4608)",0,0,6
+Ladakhi,cow_ladakhi,cattle,5,ICAR-NBAGR / Baseline Archive,"Med: 4240x2400 (Min: 4240x2400, Max: 4240x2400)",0,0,5
+Red Sindhi,cow_red_sindhi,cattle,5,ICAR-NBAGR / Baseline Archive,"Med: 960x720 (Min: 719x475, Max: 5184x3456)",0,0,5
+Deoni,cow_deoni,cattle,4,"ICAR-NBAGR / Baseline Archive, Wikimedia Commons","Med: 3164x2389 (Min: 800x411, Max: 5184x3456)",0,0,4
+Hariana,cow_hariana,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 3024x1931, Max: 5184x3456)",0,0,3
+Koppal,cow_koppal,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 1600x1200 (Min: 1600x1200, Max: 5184x3456)",0,0,3
+Malvi,cow_malvi,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 3024x3456, Max: 5184x4032)",0,0,3
+Medini,cow_medini,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 3000x2193 (Min: 2369x1814, Max: 3000x2469)",0,0,3
+Nari,cow_nari,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 1440x1312 (Min: 1061x720, Max: 2496x1708)",0,0,3
+Ponwar,cow_ponwar,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 3456x2304, Max: 5184x3456)",0,0,3
+Red Kandhari,cow_red_kandhari,cattle,3,ICAR-NBAGR / Baseline Archive,"Med: 4608x3456 (Min: 2958x2395, Max: 5184x3456)",0,0,3
+Belahi,cow_belahi,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 1161x860 (Min: 274x184, Max: 2048x1536)",0,0,1
+Binjharpuri,cow_binjharpuri,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 1663x952 (Min: 360x237, Max: 2966x1668)",0,0,2
+Dagri,cow_dagri,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 650x459 (Min: 612x459, Max: 689x459)",0,0,2
+Himachali Pahari,cow_himachali_pahari,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 682x456 (Min: 682x455, Max: 682x457)",0,0,2
+Kathani,cow_kathani,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 576x343 (Min: 253x190, Max: 900x496)",0,0,1
+Kenkatha,cow_kenkatha,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 5184x3456, Max: 5184x3456)",0,0,2
+Kherigarh,cow_kherigarh,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 5184x3456, Max: 5184x3456)",0,0,2
+Khillar,cow_khillar,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 2730x1819 (Min: 277x182, Max: 5184x3456)",0,0,1
+Konkan Kapila,cow_konkan_kapila,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 595x446 (Min: 593x445, Max: 598x448)",0,0,2
+Krishna Valley,cow_krishna_valley,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 5184x3456, Max: 5184x3456)",0,0,2
+Lakhimi,cow_lakhimi,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 574x430 (Min: 574x430, Max: 574x430)",0,0,2
+Mahakaushali,cow_mahakaushali,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 546x559 (Min: 492x327, Max: 600x791)",0,0,2
+Malnad Gidda,cow_malnad_gidda,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 5184x3456, Max: 5184x3456)",0,0,2
+Masilum,cow_masilum,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 284x215 (Min: 268x190, Max: 300x240)",0,0,1
+Mewati,cow_mewati,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 330x269 (Min: 300x239, Max: 360x300)",0,0,2
+Motu,cow_motu,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 2352x2824 (Min: 1440x2448, Max: 3264x3200)",0,0,2
+Poda Thurpu,cow_poda_thurpu,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 657x464 (Min: 619x464, Max: 696x464)",0,0,2
+Pulikulam,cow_pulikulam,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 4607x2871 (Min: 4080x2296, Max: 5134x3447)",0,0,2
+Purnea,cow_purnea,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 608x321 (Min: 535x315, Max: 682x327)",0,0,2
+Rathi,cow_rathi,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 5184x3456 (Min: 5184x3456, Max: 5184x3456)",0,0,2
+Rohilkhandi,cow_rohilkhandi,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 760x409 (Min: 736x345, Max: 785x474)",0,0,2
+Sanchori,cow_sanchori,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 1376x1055 (Min: 193x190, Max: 2560x1920)",0,0,1
+Shweta Kapila,cow_shweta_kapila,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 830x398 (Min: 660x367, Max: 1000x429)",0,0,2
+Thutho,cow_thutho,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 569x401 (Min: 540x398, Max: 598x404)",0,0,2
+Umarda,cow_umarda,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 1200x680 (Min: 1200x675, Max: 1200x685)",0,0,2
+Umblachery,cow_umblachery,cattle,2,ICAR-NBAGR / Baseline Archive,"Med: 4122x3768 (Min: 3060x3456, Max: 5184x4080)",0,0,2
+Ghumusari,cow_ghumusari,cattle,1,ICAR-NBAGR / Baseline Archive,"Med: 232x149 (Min: 232x149, Max: 232x149)",0,0,0
+Khariar,cow_khariar,cattle,1,ICAR-NBAGR / Baseline Archive,"Med: 360x270 (Min: 360x270, Max: 360x270)",0,0,1
+Kosali,cow_kosali,cattle,1,ICAR-NBAGR / Baseline Archive,"Med: 360x185 (Min: 360x185, Max: 360x185)",0,0,0

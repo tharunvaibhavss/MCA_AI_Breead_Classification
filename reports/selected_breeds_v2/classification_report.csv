@@ -1,0 +1,9 @@
+class_id,breed_name,display_name,species,support,correct_predictions,accuracy,precision,recall,f1_score
+0,Dangi,Dangi Cattle,cattle,5,2,0.4,0.5,0.4,0.4444444444444444
+1,Gaolao,Gaolao Cattle,cattle,5,4,0.8,0.5714285714285714,0.8,0.6666666666666666
+2,Gir,Gir Cattle,cattle,5,5,1.0,1.0,1.0,1.0
+3,Ongole,Ongole Cattle,cattle,4,4,1.0,0.8,1.0,0.8888888888888888
+4,Sahiwal,Sahiwal Cattle,cattle,3,2,0.6666666666666666,1.0,0.6666666666666666,0.8
+5,Manda,Manda Buffalo,buffalo,5,4,0.8,1.0,0.8,0.8888888888888888
+6,Surti,Surti Buffalo,buffalo,3,1,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+7,Toda,Toda Buffalo,buffalo,3,1,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333

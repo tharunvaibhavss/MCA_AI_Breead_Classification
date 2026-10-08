@@ -1,0 +1,3 @@
+approach,val_top1,macro_f1,complexity
+Option_A_Flat_Classifier,0.7941176470588235,0.7919011544011544,Single Model
+Option_B_Hierarchical_Classifier,0.7352941176470589,0.7165750915750916,3 Chained Models

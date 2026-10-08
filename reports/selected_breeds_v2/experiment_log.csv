@@ -1,0 +1,2 @@
+experiment_id,timestamp,architecture,resolution,real_train,synthetic_train,total_train,val_real,test_locked,val_top1,val_top3,val_f1,test_top1,test_top3,test_f1,cattle_acc,buffalo_acc,latency_ms
+EXP_SELECTED_BREEDS_V2,2026-10-06T19:59:39.791604,EfficientNet-B0,300x300,153,800,953,34,33,0.8823529411764706,0.9705882352941176,0.8710227272727273,0.696969696969697,0.9696969696969697,0.6694444444444445,0.7727272727272727,0.5454545454545454,101.37653847535451

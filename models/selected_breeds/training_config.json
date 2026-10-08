@@ -1,0 +1,17 @@
+{
+  "architecture": "EfficientNet-B0",
+  "optimizer": "AdamW",
+  "learning_rate": 0.008,
+  "weight_decay": 0.001,
+  "label_smoothing": 0.05,
+  "augmentation": "morphology_safe",
+  "synthetic_ratio": 0.0,
+  "train_real_count": 153,
+  "train_synthetic_count": 0,
+  "validation_real_count": 34,
+  "validation_top1": 0.7941176470588235,
+  "validation_top3": 0.9411764705882353,
+  "validation_macro_f1": 0.7919011544011544,
+  "cv_mean_top1": 0.7541963015647226,
+  "cv_std_top1": 0.049882046341482744
+}

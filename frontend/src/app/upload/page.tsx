@@ -26,7 +26,7 @@ export default function UploadPage() {
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<PredictResponse | null>(null);
   const [activeTab, setActiveTab] = useState<'overlay' | 'original' | 'heatmap'>('overlay');
-  const [modelVersion, setModelVersion] = useState<string>('high_accuracy_v2');
+  const [modelVersion, setModelVersion] = useState<string>('selected_breeds_swin_v2');
 
   const handleFileSelect = (file: File) => {
     setError(null);
@@ -113,11 +113,12 @@ export default function UploadPage() {
               onChange={(e) => setModelVersion(e.target.value)}
               className="bg-slate-950 border border-slate-700 text-xs text-indigo-300 font-medium rounded-lg px-3 py-1.5 focus:outline-none focus:border-indigo-500"
             >
-              <option value="high_accuracy_v2">High-Accuracy V2 (Optimized 82 Breeds - 39.0% Top-1 / 52.8% Top-3)</option>
-              <option value="efficientnet_b0_82_breeds_v3">Synthetic-Augmented V3 (82 Breeds - 36.6% Top-1)</option>
-              <option value="efficientnet_b0_82_breeds_v2">Expanded Real V2 (82 Breeds - 33.3% Top-1)</option>
-              <option value="efficientnet_b0_82_breeds_v1">Baseline V1 (82 Breeds - 13.0% Top-1)</option>
-              <option value="efficientnet_b0_6_breeds_v1">Prototype Control (6 Breeds - 65.2% Top-1)</option>
+              <option value="selected_breeds_swin_v2">Swin-T V2 [Production Default] (8 Selected Breeds - 78.79% Top-1 / 90.91% Top-3)</option>
+              <option value="selected_breeds_swin_synth_v3">Swin-T Synth V3 [Experimental] (8 Selected Breeds - 75.76% Top-1 / 100.00% Top-3)</option>
+              <option value="convnext_v2">ConvNeXt-Tiny (8 Selected Breeds - 72.73% Top-1 / 93.94% Top-3)</option>
+              <option value="selected_breeds_v4">EfficientNet-B4 (8 Selected Breeds - 51.52% Top-1 / 75.76% Top-3)</option>
+              <option value="selected_breeds_v2">EfficientNet-B0 V2 (8 Selected Breeds - 69.70% Top-1 / 96.97% Top-3)</option>
+              <option value="high_accuracy_v2">High-Accuracy V2 (82 Breeds Exploratory)</option>
             </select>
           </div>
 

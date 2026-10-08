@@ -11,6 +11,24 @@ export default function BreedsPage() {
   const [loading, setLoading] = useState(true);
 
   const defaultBreedDetails: Record<string, any> = {
+    Dangi: {
+      native_state: 'Maharashtra / Gujarat',
+      origin: 'Nashik, Ahmednagar & Dang Districts',
+      characteristics: 'Distinctive white coat with uneven black or red spots, hardy hooves adapted to heavy rainfall and stony terrains.',
+      milk_yield: '530 kg per lactation',
+      fat_percentage: '4.3% - 4.5%',
+      uses: 'Hardy Draught Power',
+      climate: 'Exceptional endurance in heavy monsoon and hilly timber terrain.',
+    },
+    Gaolao: {
+      native_state: 'Maharashtra / Madhya Pradesh',
+      origin: 'Wardha, Nagpur & Chhindwara Region',
+      characteristics: 'White or light grey coat, convex forehead, almond-shaped eyes, agile muscular carriage.',
+      milk_yield: '800 kg per lactation',
+      fat_percentage: '4.2% - 4.6%',
+      uses: 'Dual-Purpose (Draught & Milk)',
+      climate: 'Well adapted to dry deciduous agro-climatic conditions.',
+    },
     Gir: {
       native_state: 'Gujarat',
       origin: 'Gir Hills & Kathiawar Forests',
@@ -38,6 +56,33 @@ export default function BreedsPage() {
       uses: 'Dairy',
       climate: 'High resistance to extreme heat and tropical tick infestations.',
     },
+    Manda: {
+      native_state: 'Odisha / Andhra Pradesh',
+      origin: 'Eastern Ghats / Koraput Plateau',
+      characteristics: 'Ash-grey or copper-brown coat, broad face, short backwardly directed horns, sturdy draft build.',
+      milk_yield: '600 - 800 kg per lactation',
+      fat_percentage: '7.8% - 8.5%',
+      uses: 'Dual-Purpose (Draft & High-Fat Dairy)',
+      climate: 'Highly resilient to hill terrain and endemic parasitic stress.',
+    },
+    Surti: {
+      native_state: 'Gujarat',
+      origin: 'Kheda & Vadodara Region',
+      characteristics: 'Compact medium frame, sickle-shaped horns, rusty brown coat with two white neck collars.',
+      milk_yield: '1,650 kg per lactation',
+      fat_percentage: '7.5% - 8.2%',
+      uses: 'Economical Dairy',
+      climate: 'Thrives in intensive rural management with minimal green forage.',
+    },
+    Toda: {
+      native_state: 'Tamil Nadu',
+      origin: 'Nilgiri Hills (High Altitude Shola Grasslands)',
+      characteristics: 'Dense fawn coat with dark markings, long crescent/semi-circular horns, prominent dewlap.',
+      milk_yield: '500 kg per lactation',
+      fat_percentage: '8.0% - 9.0%',
+      uses: 'Sacred Dairy / Pastoral Cultural Heritage',
+      climate: 'Adapted exclusively to cold, humid high-altitude montane conditions.',
+    },
     Jaffarabadi: {
       native_state: 'Gujarat',
       origin: 'Gir Forest & Coastal Saurashtra',
@@ -55,15 +100,6 @@ export default function BreedsPage() {
       fat_percentage: '7.0% - 7.8%',
       uses: 'Premier Dairy (Black Gold)',
       climate: 'Highly adaptable across all Indian agro-climatic zones.',
-    },
-    Surti: {
-      native_state: 'Gujarat',
-      origin: 'Kheda & Vadodara Region',
-      characteristics: 'Compact medium frame, sickle-shaped horns, rusty brown coat with two white neck collars.',
-      milk_yield: '1,650 kg per lactation',
-      fat_percentage: '7.5% - 8.2%',
-      uses: 'Economical Dairy',
-      climate: 'Thrives on moderate feeding with efficient feed-to-milk conversion.',
     },
   };
 

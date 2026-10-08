@@ -142,10 +142,16 @@ class EfficientNetGradCAM:
         if self.activations is None or self.gradients is None:
             raise RuntimeError("Failed to capture Grad-CAM activations or gradients.")
 
+        # Handle channels-last (B, H, W, C) from Vision Transformers / Swin vs CNNs (B, C, H, W)
+        act = self.activations
+        grad = self.gradients
+        if act.dim() == 4 and act.shape[3] > act.shape[1] and act.shape[3] > act.shape[2]:
+            act = act.permute(0, 3, 1, 2)
+            grad = grad.permute(0, 3, 1, 2)
+
         # Compute channel-wise mean gradient weights
-        # activations: (1, C, H_f, W_f), gradients: (1, C, H_f, W_f)
-        weights = torch.mean(self.gradients, dim=(2, 3), keepdim=True)
-        cam = torch.sum(weights * self.activations, dim=1).squeeze(0)
+        weights = torch.mean(grad, dim=(2, 3), keepdim=True)
+        cam = torch.sum(weights * act, dim=1).squeeze(0)
 
         # Apply ReLU activation to filter negative importance
         cam = F.relu(cam).cpu().numpy()

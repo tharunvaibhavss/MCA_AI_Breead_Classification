@@ -1,0 +1,50 @@
+{
+  "0": {
+    "breed_name": "Dangi",
+    "breed_id": "cow_dangi",
+    "animal_type": "cattle",
+    "display_name": "Dangi Cattle"
+  },
+  "1": {
+    "breed_name": "Gaolao",
+    "breed_id": "cow_gaolao",
+    "animal_type": "cattle",
+    "display_name": "Gaolao Cattle"
+  },
+  "2": {
+    "breed_name": "Gir",
+    "breed_id": "cow_gir",
+    "animal_type": "cattle",
+    "display_name": "Gir Cattle"
+  },
+  "3": {
+    "breed_name": "Ongole",
+    "breed_id": "cow_ongole",
+    "animal_type": "cattle",
+    "display_name": "Ongole Cattle"
+  },
+  "4": {
+    "breed_name": "Sahiwal",
+    "breed_id": "cow_sahiwal",
+    "animal_type": "cattle",
+    "display_name": "Sahiwal Cattle"
+  },
+  "5": {
+    "breed_name": "Manda",
+    "breed_id": "buffalo_manda",
+    "animal_type": "buffalo",
+    "display_name": "Manda Buffalo"
+  },
+  "6": {
+    "breed_name": "Surti",
+    "breed_id": "buffalo_surti",
+    "animal_type": "buffalo",
+    "display_name": "Surti Buffalo"
+  },
+  "7": {
+    "breed_name": "Toda",
+    "breed_id": "buffalo_toda",
+    "animal_type": "buffalo",
+    "display_name": "Toda Buffalo"
+  }
+}

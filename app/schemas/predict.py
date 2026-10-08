@@ -56,6 +56,9 @@ class PredictResponseSchema(BaseModel):
     latency: Optional[float] = Field(default=None, description="Total inference latency in milliseconds")
     status: Optional[str] = Field(default=None, description="Canonical prediction status string")
     request_id: Optional[str] = Field(default=None, description="Unique trace request ID")
+    breed: Optional[str] = Field(default=None, description="Top-1 predicted breed name")
+    top_predictions: Optional[List[Dict[str, Any]]] = Field(default=None, description="Top candidate predictions list")
+    processing_time: Optional[float] = Field(default=None, description="Inference latency in ms")
 
 
 class BreedInfoSchema(BaseModel):

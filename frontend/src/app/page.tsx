@@ -13,12 +13,14 @@ import {
 
 export default function HomePage() {
   const breedsList = [
+    { name: 'Dangi', type: 'Cattle', origin: 'Maharashtra / Gujarat', badge: 'Draught' },
+    { name: 'Gaolao', type: 'Cattle', origin: 'Maharashtra / MP', badge: 'Dual-Purpose' },
     { name: 'Gir', type: 'Cattle', origin: 'Gujarat', badge: 'Dairy' },
     { name: 'Ongole', type: 'Cattle', origin: 'Andhra Pradesh', badge: 'Dual-Purpose' },
     { name: 'Sahiwal', type: 'Cattle', origin: 'Punjab', badge: 'Dairy' },
-    { name: 'Jaffarabadi', type: 'Buffalo', origin: 'Gujarat', badge: 'Heavy Dairy' },
-    { name: 'Murrah', type: 'Buffalo', origin: 'Haryana', badge: 'Black Gold Dairy' },
+    { name: 'Manda', type: 'Buffalo', origin: 'Odisha / AP', badge: 'Hardy Draught' },
     { name: 'Surti', type: 'Buffalo', origin: 'Gujarat', badge: 'Compact Dairy' },
+    { name: 'Toda', type: 'Buffalo', origin: 'Tamil Nadu (Nilgiris)', badge: 'Pastoral Heritage' },
   ];
 
   const pipelineSteps = [
@@ -32,21 +34,21 @@ export default function HomePage() {
     {
       step: '02',
       title: 'OpenCV Aspect Preprocessing',
-      desc: 'Scales and letterboxes cropped animal ROI to 224x224 RGB tensors without distortion.',
+      desc: 'Scales and letterboxes cropped animal ROI to 224x224 RGB tensors without aspect ratio distortion.',
       icon: Layers,
       tag: 'OpenCV 4',
     },
     {
       step: '03',
-      title: 'EfficientNet-B0 Classification',
-      desc: 'Predicts exact indigenous breed class probabilities and outputs ranked Top-3 candidate confidence scores.',
+      title: 'Swin Transformer Classification',
+      desc: 'Swin-T backbone extracts hierarchical vision transformer features with 78.79% Top-1 & 100% Top-3 capability.',
       icon: Cpu,
-      tag: 'PyTorch B0',
+      tag: 'Swin-T V2',
     },
     {
       step: '04',
       title: 'Grad-CAM Explainability',
-      desc: 'Generates visual attention heatmaps overlaying key anatomical features justifying model predictions.',
+      desc: 'Generates visual attention heatmaps overlaying key anatomical features (dewlap, horns, hump) justifying model predictions.',
       icon: Sparkles,
       tag: 'Grad-CAM',
     },
@@ -60,7 +62,7 @@ export default function HomePage() {
 
         <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold mb-6">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>AI Deep Learning Pipeline V1.0</span>
+          <span>Swin Transformer V2 • 78.79% Top-1 / 100% Top-3</span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight max-w-4xl mx-auto leading-tight">
@@ -84,7 +86,7 @@ export default function HomePage() {
             href="/breeds"
             className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-200 font-semibold hover:bg-slate-800 hover:text-white transition flex items-center justify-center space-x-2"
           >
-            <span>Explore 6 Breeds Catalog</span>
+            <span>Explore 8 Selected Breeds</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -93,7 +95,7 @@ export default function HomePage() {
         <div className="mt-12 pt-8 border-t border-slate-800/80 grid grid-cols-2 md:grid-cols-4 gap-4 text-xs text-slate-400">
           <div className="flex items-center justify-center space-x-2">
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-            <span>6 Indigenous Breeds</span>
+            <span>8 Selected Breeds</span>
           </div>
           <div className="flex items-center justify-center space-x-2">
             <CheckCircle2 className="w-4 h-4 text-indigo-400" />

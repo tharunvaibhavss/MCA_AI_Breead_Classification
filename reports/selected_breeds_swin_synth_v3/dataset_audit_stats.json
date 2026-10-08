@@ -1,0 +1,48 @@
+{
+  "audit_timestamp": "2026-10-08 21:47:21.340564",
+  "real_train_count": 153,
+  "synthetic_train_count": 4160,
+  "total_train_count": 4313,
+  "real_val_count": 34,
+  "real_test_count": 33,
+  "real_train_by_breed": {
+    "Dangi": 28,
+    "Gaolao": 23,
+    "Ongole": 21,
+    "Manda": 21,
+    "Gir": 20,
+    "Sahiwal": 16,
+    "Surti": 14,
+    "Toda": 10
+  },
+  "synthetic_train_by_breed": {
+    "Sahiwal": 570,
+    "Gir": 535,
+    "Toda": 520,
+    "Ongole": 520,
+    "Surti": 510,
+    "Gaolao": 505,
+    "Dangi": 500,
+    "Manda": 500
+  },
+  "synthetic_versions": {
+    "v4_expanded_500": 4000,
+    "legacy_synth_800": 160
+  },
+  "leakage_checks": {
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "train_val_overlap": 0,
+    "synth_test_overlap": 0,
+    "synth_val_overlap": 0,
+    "synth_real_train_overlap": 0
+  },
+  "formats_synthetic": {
+    "JPEG": 4160
+  },
+  "formats_real": {
+    "JPEG": 142,
+    "PNG": 9,
+    "MPO": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model_version": "selected_breeds_v4",
+  "architecture": "EfficientNet-B4",
+  "parameter_count": 17562960,
+  "input_resolution": [
+    300,
+    300
+  ],
+  "is_hierarchical": false,
+  "domain_boost": 10.0,
+  "label_smoothing": 0.05,
+  "learning_rate": 0.0005,
+  "best_epoch": 5,
+  "created_at": "2026-10-08T00:15:34.537021"
+}

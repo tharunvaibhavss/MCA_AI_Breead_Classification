@@ -1,0 +1,2 @@
+models/selected_breeds/**/*.pth filter=lfs diff=lfs merge=lfs -text
+models/selected_breeds/*.pth filter=lfs diff=lfs merge=lfs -text

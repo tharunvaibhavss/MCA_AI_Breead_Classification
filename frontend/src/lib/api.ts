@@ -88,7 +88,7 @@ export async function fetchModelInfo(): Promise<ModelInfoResponse> {
 export async function predictBreed(
   imageFile: File,
   generateGradcam = true,
-  modelVersion = 'high_accuracy_v2'
+  modelVersion = 'selected_breeds_swin_v2'
 ): Promise<PredictResponse> {
   const formData = new FormData();
   formData.append('file', imageFile);
